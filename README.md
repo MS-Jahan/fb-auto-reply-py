@@ -5,8 +5,8 @@ Edit the <b>run.py</b> with your facebook username and password. Also edit the <
 Make sure you have installed python3 in your machine. You can also use python2 by converting the whole code.
 Then:
 <ol>
-<li>Install fbchat module: <input>pip3 install fbchat</input></li>
-<li>Clone this repository: <input>git clone https://github.com/MS-Jahan/fb-auto-reply-py</input></li>
-<li>Change directory to this project folder: <input>cd fb-auto-reply-py</input></li>
-<li>Now run the script: <input>python3 run.py</input></li>
+<li>Install fbchat module: <quote>pip3 install fbchat</quote></li>
+<li>Clone this repository: <quote>git clone https://github.com/MS-Jahan/fb-auto-reply-py</quote></li>
+<li>Change directory to this project folder: <quote>cd fb-auto-reply-py</quote></li>
+<li>Now run the script: <quote>python3 run.py</quote></li>
 </ol>
