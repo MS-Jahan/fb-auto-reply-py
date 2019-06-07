@@ -1,5 +1,5 @@
 # Before Getting Started
-Edit the <b>run.py</b> with your facebook username and password. Also edit the <b>msg1.txt</b> file with your desired auto reply
+Edit the <b>run.py</b> with your facebook username and password. Also edit the <b>msg1.txt</b> file with your desired auto reply.
 
 # Installation
 Make sure you have installed python3 in your machine. You can also use python2 by converting the whole code.
