@@ -1,5 +1,14 @@
+#Features
+<ul style="list-style-type:circle;">
+<li>Replies a specific message to every recipient who messages you.</li>
+<li>If anyone messages you twice, then secondary message system is available.</li>
+<li>If primary and secondary messages are sent once to a recipient, then bot will not reply to the recipient anymore in an active session.</li>
+<li>Avoids group messages.</li>
+<li>Blacklist option available if you want the bot not to respond to specific users.</li>
+</ul>
+<br/>
 # Before Getting Started
-Edit the <b>run.py</b> with your facebook username and password. Also edit the <b>msg1.txt</b> file with your desired auto reply.
+After cloning this repository, edit the <b>run.py</b> with your facebook username and password. Also edit the <b>msg1.txt</b>, <b>msg2.txt</b> and <b>blacklist.txt</b> files with your desired auto reply.
 
 # Installation
 Make sure you have installed python3 in your machine. You can also use python2 by converting the whole code.
