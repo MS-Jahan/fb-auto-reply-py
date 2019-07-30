@@ -1,0 +1,4 @@
+# This file will contain the Messenger IDs whom will not receive message from bot.
+# To find Messenger ID of a specific user, click on his/her profile picture. Then you'll see the url something like this: https://mbasic.facebook.com/photo.php?fbid=856913271159969&id=100005239118980&set=a.138657809652189&refid=17
+# Here the number between "id=" and "&set" is the Messenger ID.
+# Please delete these texts if you want to use pre-specified blacklish feature.
