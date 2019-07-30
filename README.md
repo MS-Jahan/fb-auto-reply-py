@@ -3,6 +3,7 @@
 <li>Replies a specific message to every recipient who messages you.</li>
 <li>If anyone messages you twice, then secondary message system is available.</li>
 <li>If primary and secondary messages are sent once to a recipient, then bot will not reply to the recipient anymore in an active session.</li>
+<li>Waits for a random number (between 4 to 10) of seconds before sending every message to act as a human, to minimize the chance of getting blocked from Facebook.</li> 
 <li>Avoids group messages.</li>
 <li>Blacklist option available if you want the bot not to respond to specific users.</li>
 </ul>
