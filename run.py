@@ -14,7 +14,7 @@ with open('msg2.txt', encoding='utf8') as my_file2:
 
 with open('blacklist.txt', encoding='utf') as my_file3:
 	for line in my_file3:
-		bloc_authors.append(line)
+		bloc_authors.append(str(int(line)))
 
 class CustomClient(Client):
 	def onMessage(self, author_id, message_object, thread_id, thread_type, ts, metadata, msg, **kwargs):
