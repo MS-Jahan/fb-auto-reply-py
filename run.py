@@ -33,7 +33,7 @@ class CustomClient(Client):
 					message_id = client.send(Message(text=primary_text), thread_id=thread_id, thread_type=thread_type)
 					prev_authors.append(author_id)
 
-client = CustomClient('ssarwarjahan@gmail.com', 'howtodo2000') # replace your username and password here
+client = CustomClient('email', 'password') # replace your username and password here
 session_cookies = client.getSession()
 client.getSession()
 client.listen()
