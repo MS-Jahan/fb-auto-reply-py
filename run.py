@@ -1,10 +1,12 @@
 from fbchat import Client
 from fbchat.models import *
-import time;
+from random import randrange
+import time
 
 localtime = time.asctime(time.localtime(time.time()))
 
 prev_authors = []
+bloc_authors = []
 
 with open('msg1.txt', encoding='utf8') as my_file1:
 	txt1 = my_file1.read().strip()
@@ -17,10 +19,14 @@ secondary_text = txt2 + "\nTimestamp: " + localtime
 
 class CustomClient(Client):
 	def onMessage(self, author_id, message_object, thread_id, thread_type, ts, metadata, msg, **kwargs):
+		time.sleep(randrange(4,10))
 		if author_id != self.uid:
 			if thread_type != ThreadType.GROUP:
-				if author_id in prev_authors:
+				if author_id in bloc_authors:
+					None
+				elif author_id in prev_authors:
 					message_id = client.send(Message(text=secondary_text), thread_id=thread_id, thread_type=thread_type)
+					bloc_authors.append(author_id)
 				else:
 					message_id = client.send(Message(text=primary_text), thread_id=thread_id, thread_type=thread_type)
 					prev_authors.append(author_id)
