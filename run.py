@@ -1,12 +1,13 @@
 from fbchat import Client
 from fbchat.models import *
 from random import randrange
-import time, threading
-from datetime import datetime, timedelta
+import time
+from datetime import datetime
 import sys
 import string
 from pygtail import Pygtail
 import pickle
+import getpass
 
 
 prev_threads = []
@@ -65,7 +66,7 @@ class CustomClient(Client):
 	def onMessage(self, author_id, message_object, thread_id, thread_type, ts, metadata, msg, **kwargs):
 		reload1()
 		reload2()
-		localtime = str(datetime.now() + timedelta(hours=6))
+		localtime = datetime.now()
 		time.sleep(randrange(4,10))
 		thread = self.fetchThreadInfo(thread_id)[thread_id]
 		primary_text = auto + '\n' + thread.name + ", " + txt1 + "\nTimestamp: " + localtime
@@ -149,7 +150,7 @@ try:
 	print('Cookies found!')
 except:
 	print('Cookies not found. Please enter credentials.')
-	client = CustomClient(input('Email: '), input('Password: ')) # replace your username and password here
+	client = CustomClient(input('Email: '), getpass('Password: ')) # replace your username and password here
 	session = client.getSession()
 	pickle.dump(session, open('cookies.p','wb'))
 	print('Cookies saved to cookies.p file.')
