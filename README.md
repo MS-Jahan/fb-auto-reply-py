@@ -3,25 +3,28 @@
 
 # Features
 <ul style="list-style-type:circle;">
-<li>Replies a specific message to every recipient who messages you.</li>
-<li>If anyone messages you twice, then secondary message system is available.</li>
-<li>If primary and secondary messages are sent once to a recipient, then bot will not reply to the recipient anymore in an active session.</li>
+<li>Option for specific reply to specific or near specific messages.</li>
+<li>Replies a specific message to every recipient whose messages aren't understood by the bot.</li>
+<li>If anyone messages you twice which is not understood by bot, then secondary message system is available.</li>
+<li>If primary and secondary messages are sent once to a recipient, then bot will not reply to the messages of the recipient anymore in an active session, but will reply to the messages which are recognised by the bot.</li>
 <li>Waits for a random number (between 4 to 10) of seconds before sending every message to act as a human, to minimize the chance of getting blocked from Facebook.</li> 
 <li>Avoids group messages.</li>
 <li>Blacklist option available if you want the bot not to respond to specific users.</li>
 </ul>
 
-# Before Getting Started
-After cloning this repository, edit the <b>run.py</b> with your facebook username and password. Also edit the <b>msg1.txt</b>, <b>msg2.txt</b> and <b>blacklist.txt</b> files with your desired auto reply.
+# Getting Started At A Glance
+After cloning this repository, edit the <b>msg1.txt</b>, <b>msg2.txt</b>, <b>received.txt</b>, <b>reply.txt</b> and <b>blacklist.txt</b> files following the instructions written in them. Don't try to run the program without editing these files. You are definately gonna get error messages. Then, installed required modules from <b>pip3</b> following the instructions below. Finally, run the <b>run.py</b> program, type your credentials when asked and you're good to go.
 
 # Installation
 Make sure you have installed python3 in your machine. You can also use python2 by converting the whole code.
 Then:
 <ol>
-<li>Install fbchat module: <code>pip3 install fbchat</code></li>
+<li>Install fbchat module: <code>pip3 install fbchat pygtail --user</code></li>
 <li>Clone this repository: <code>git clone https://github.com/MS-Jahan/fb-auto-reply-py</code></li>
 <li>Change directory to this project folder: <code>cd fb-auto-reply-py</code></li>
+<li>Edit the <b>msg1.txt</b>, <b>msg2.txt</b>, <b>received.txt</b>, <b>reply.txt</b> and <b>blacklist.txt</b> files following the instructions written in them.
 <li>Now run the script: <code>python3 run.py</code></li>
+<li>Type your email and password when asked. (you don't need to type your credentials next time if you don't your password or log out from session )
 </ol>
 
 # Credits
