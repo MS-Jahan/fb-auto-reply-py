@@ -43,6 +43,7 @@ To use this python tool on Android, you have to install a linux terminal emulato
 <li>Now run the script: <code>python3 run.py</code></li>
 <li>Type your email and password when asked. Password will not be visible when typing.</li>
 <li>Now your bot is running!</li>
+</ol>
 
 # Reporting Issues
 As I'm a noob in writing codes, this python tool may look sarcastic, even this README.md file. Feel free to open an issue for bugs, improvements, suggestions or anything important for developing this tool.
