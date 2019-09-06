@@ -1,4 +1,5 @@
 # Warning
+(...from the fbchat module doc: )
 <b>We are not responsible if your account gets banned for spammy activities, such as sending lots of messages to people you don’t know, sending messages very quickly, sending spammy looking URLs, logging in and out very quickly… Be responsible Facebook citizens.</b>
 
 # Features
@@ -19,14 +20,32 @@ After cloning this repository, edit the <b>msg1.txt</b>, <b>msg2.txt</b>, <b>rec
 Make sure you have installed python3 in your machine. You can also use python2 by converting the whole code.
 Then:
 <ol>
-<li>Install fbchat module: <code>pip3 install fbchat pygtail getpass --user</code></li>
 <li>Clone this repository: <code>git clone https://github.com/MS-Jahan/fb-auto-reply-py</code></li>
+<li>Install fbchat module: <code>pip3 install fbchat pygtail getpass --user</code></li>
 <li>Change directory to this project folder: <code>cd fb-auto-reply-py</code></li>
 <li>Edit the <b>msg1.txt</b>, <b>msg2.txt</b>, <b>received.txt</b>, <b>reply.txt</b> and <b>blacklist.txt</b> files following the instructions written in them.
 <li>Now run the script: <code>python3 run.py</code></li>
 <li>Type your email and password when asked. Password will not be visible when typing. (You will not need to type your credentials next time if you don't change your password or log out from session )</li>
 <li>Now your bot is running!</li>
 </ol>
+
+# Using on Android
+To use this python tool on Android, you have to install a linux terminal emulator named Termux which is available on Google Play Store. After Installing Termux, open the app, write down the commands stated below one by one and press enter.
+<ol>
+<li>Update and upgrade packages: <code>apt update && apt upgrade</code> (Press y and enter when prompted to upgrade packages.)</li>
+<li>Install python and git: <code>apt install python git</code></li>
+<li>Change directory to internal storage: <code>cd /storage/emulated/0</code>
+<li>Clone this repository: <code>git clone https://github.com/MS-Jahan/fb-auto-reply-py</code></li>
+<li>Install necessary python modules: <code>pip3 install fbchat pygtail getpass --user</code></li>
+<li>Rename the downloaded project folder: <code>mv 'fb-auto-reply-py' replybot
+<li>Change directory to this project folder: <code>cd reply</code></li>
+<li>Edit the <b>msg1.txt</b>, <b>msg2.txt</b>, <b>received.txt</b>, <b>reply.txt</b> and <b>blacklist.txt</b> files using any text editor (or nano in Termux) following the instructions written in them.
+<li>Now run the script: <code>python3 run.py</code></li>
+<li>Type your email and password when asked. Password will not be visible when typing.</li>
+<li>Now your bot is running!</li>
+
+# Reporting Issues
+As I'm a noob in writing codes, this python tool may look sarcastic, even this README.md file. Feel free to open an issue for bugs, improvements, suggestions or anything important for developing this tool.
 
 # Credits
 The main core of this project is the <b><a href = 'https://github.com/carpedm20/fbchat'>fbchat</a></b> module. Without the module, it would be a very difficult task.
