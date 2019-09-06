@@ -1,3 +1,7 @@
+# This file contains specified replies to sender's message. Bot will reply to messages containing any line in received.txt file as any line in this file. For a message containing the 1st line of the received.txt file, bot will reply the 1st line of this file. Edit as you like. Place the replies according to the lines in received.txt file. You can also update this file when the code is already running. Just be sure to update the file from the last line, not in the middle nor from the start. Also, don't keep the last line empty when you edit this file every time. Delete this line after reading. Don't keep this line empty.
+
+
+
 আলহামদুলিল্লাহ, ভালো।
 আলহামদুলিল্লাহ, ভালো।
 আলহামদুলিল্লাহ, ভালো।
