@@ -1,4 +1,4 @@
-# This file contains expected words in sender's message. Edit as you like. Place the words according to the possibility of getting from senders. You can also update this file when the code is already running. Just be sure to not to keep the last line empty when you edit this file every time. Delete this line after reading.
+# This file contains expected words in sender's message. Bot will reply to messages containing any line in this file as any line in the reply.txt file. For a message containing the 1st line, bot will reply the 1st line of the reply.txt file. Edit as you like. Place the words according to the possibility of getting from senders. You can also update this file when the code is already running. Just be sure to update the file from the last line, not in the middle nor from the start. Also, don't keep the last line empty when you edit this file every time. You don't need to use capital letters for message examples though this file contains capital and small letters. Just use small letters. Delete this line after reading. Don't keep this line empty.
 how are you
 How are you
 How Are You
@@ -43,6 +43,7 @@ Hello
 hlw
 Hlw
 hllw
+hey
 kio
 ki koro
 ki kro
