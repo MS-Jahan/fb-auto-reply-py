@@ -24,7 +24,8 @@ Then:
 <li>Change directory to this project folder: <code>cd fb-auto-reply-py</code></li>
 <li>Edit the <b>msg1.txt</b>, <b>msg2.txt</b>, <b>received.txt</b>, <b>reply.txt</b> and <b>blacklist.txt</b> files following the instructions written in them.
 <li>Now run the script: <code>python3 run.py</code></li>
-<li>Type your email and password when asked. (you don't need to type your credentials next time if you don't your password or log out from session )
+<li>Type your email and password when asked. (You will not need to type your credentials next time if you don't change your password or log out from session )</li>
+<li>Now your bot is running!</li>
 </ol>
 
 # Credits
