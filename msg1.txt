@@ -1,3 +1,6 @@
+# Instructions:
+# This is the primary bot reply if an unrecognized message is received. Edit the message the way you like and delete the these instructions.
+
 [It is an auto reply]
 
 Hi! Thanks for texting me.
@@ -5,12 +8,12 @@ As I am not available on Facebook at present, you can contact me using these. :-
 
 Telegram: https://t.me/Md_Sarwar_Jahan_Sabit
 
-WhatsApp: https://wplink.org/zextlj7010
+WhatsApp: +0000000000
 
-Email: ssarwarjahan@gmail.com
+Email: myemail@gmail.com
 
 Anonymous Chat (on my website): https://sabitt.tk/xvisitors
 
-Phone: +8801686261785
+Phone: +000000000
 
 ধন্যবাদ :-) <3 (y)
