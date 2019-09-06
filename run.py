@@ -7,7 +7,7 @@ import sys
 import string
 from pygtail import Pygtail
 import pickle
-import getpass
+from getpass import getpass
 
 
 prev_threads = []
