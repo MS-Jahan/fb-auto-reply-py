@@ -52,7 +52,6 @@ def reload1():
 	for line in Pygtail("blacklist.txt"):
 	 	prebloc_threads.append(line.strip())
 
-print(prebloc_threads)
 
 def reload2():
 	with open('msg1.txt', encoding='utf8') as my_file1:
@@ -119,13 +118,9 @@ class CustomClient(Client):
 					for replies in received:
 						if matching in replies:
 							index = received.index(replies)
-							print(type(index))
 							msg = auto + reply[index]
 							message_id = client.send(Message(text=msg), thread_id=thread_id, thread_type=thread_type)
-							print(type(message_id))
 							break
-						else:
-							signal = 0
 							
 				if thread_id not in prebloc_threads:
 					if thread_id not in bloc_threads:
