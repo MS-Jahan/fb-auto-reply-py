@@ -39,7 +39,7 @@ To use this python tool on Android, you have to install a linux terminal emulato
 <li>Clone this repository: <code>git clone https://github.com/MS-Jahan/fb-auto-reply-py</code></li>
 <li>Install necessary python modules: <code>pip3 install fbchat pygtail getpass --user</code></li>
 <li>Rename the downloaded project folder: <code>mv 'fb-auto-reply-py' replybot</code>
-<li>Change directory to this project folder: <code>cd reply</code></li>
+<li>Change directory to this project folder: <code>cd replybot</code></li>
 <li>Edit the <b>msg1.txt</b>, <b>msg2.txt</b>, <b>received.txt</b>, <b>reply.txt</b> and <b>blacklist.txt</b> files using any text editor (or nano in Termux) following the instructions written in them.
 <li>Now run the script: <code>python3 run.py</code></li>
 <li>Type your email and password when asked. Password will not be visible when typing.</li>
