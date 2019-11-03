@@ -34,6 +34,7 @@ To use this python tool on Android, you have to install a linux terminal emulato
 <ol>
 <li>Update and upgrade packages: <code>apt update && apt upgrade</code> (Press y and enter when prompted to upgrade packages.)</li>
 <li>Install python and git: <code>apt install python git</code></li>
+<li>Get storage permission; Press <b>Allow</b>: <code>termux-setup-storage</code>
 <li>Change directory to internal storage: <code>cd /storage/emulated/0</code>
 <li>Clone this repository: <code>git clone https://github.com/MS-Jahan/fb-auto-reply-py</code></li>
 <li>Install necessary python modules: <code>pip3 install fbchat pygtail getpass --user</code></li>
