@@ -3,5 +3,5 @@
 # Here the number between "id=" and "&set" is the Messenger ID.
 # Just paste an Messenger ID in this file and if you want to add multiple IDs, just put them in lines. Don't add any space or any character other than IDs.
 # Don't keep the last line empty.
-# You can update this file while running the code. Just update this file from last line, not from the middle nor the start. And keep the last line empty.
-# Please delete these texts and add your preferred Messenger IDs if you want to use pre-specified blacklish feature. You should delete these texts even if you don't want to use the blacklist feature.
+# You can update this file while running the code. Just update this file from last line, not from the middle nor the start.
+# Please delete these texts and add your preferred Messenger IDs if you want to use pre-specified blacklist feature. You should delete these texts even if you don't want to use the blacklist feature.
