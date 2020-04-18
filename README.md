@@ -1,3 +1,5 @@
+[THIS THING ISN'T WORKING RIGHT NOW (fbchat module issue). USE IT IF YOU CAN DEBUG AND LET ME KNOW IF YOU CAN.]
+
 # Warning
 (...from the fbchat module doc: )
 <b>We are not responsible if your account gets banned for spammy activities, such as sending lots of messages to people you don’t know, sending messages very quickly, sending spammy looking URLs, logging in and out very quickly… Be responsible Facebook citizens.</b>
