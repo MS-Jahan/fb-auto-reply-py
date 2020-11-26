@@ -1,4 +1,4 @@
-# [THIS THING ISN'T WORKING RIGHT NOW (fbchat module issue). USE IT IF YOU CAN DEBUG AND LET ME KNOW IF YOU CAN.]
+# [THIS THING ISN'T WORKING EVERYTIME (fbchat module issue). USE IT IF YOU CAN DEBUG AND LET ME KNOW IF YOU CAN.]
 
 # Warning
 (...from the fbchat module doc: )
