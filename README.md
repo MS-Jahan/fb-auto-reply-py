@@ -23,7 +23,7 @@ Make sure you have installed python3 in your machine. You can also use python2 b
 Then:
 <ol>
 <li>Clone this repository: <code>git clone https://github.com/MS-Jahan/fb-auto-reply-py</code></li>
-<li>Install fbchat module: <code>pip3 install fbchat pygtail getpass --user</code></li>
+<li>Install fbchat module: <code>pip3 install fbchat pygtail --user</code></li>
 <li>Change directory to this project folder: <code>cd fb-auto-reply-py</code></li>
 <li>Edit the <b>msg1.txt</b>, <b>msg2.txt</b>, <b>received.txt</b>, <b>reply.txt</b> and <b>blacklist.txt</b> files following the instructions written in them.
 <li>Now run the script: <code>python3 run.py</code></li>
