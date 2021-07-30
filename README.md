@@ -23,7 +23,7 @@ Make sure you have installed python3 in your machine. You can also use python2 b
 Then:
 <ol>
 <li>Clone this repository: <code>git clone https://github.com/MS-Jahan/fb-auto-reply-py</code></li>
-<li>Run `git clone --single-branch --branch v1 https://github.com/MS-Jahan/fbchat.git`. You can delete other files and folders (cloned from my fbchat fork) except the `fbchat` folder. For Windows, you can just download the code (in zip file) for the code in branch v1.</li>
+<li>Run <code>git clone --single-branch --branch v1 https://github.com/MS-Jahan/fbchat.git</code>. You can delete other files and folders (cloned from my fbchat fork) except the <code>fbchat</code> folder. For Windows, you can just download the code (in zip file) for the code in branch v1.</li>
 <li>Install requirements: <code>pip3 install -r requirements.txt --user</code></li>
 <li>Change directory to this project folder: <code>cd fb-auto-reply-py</code></li>
 <li>Edit the <b>msg1.txt</b>, <b>msg2.txt</b>, <b>received.txt</b>, <b>reply.txt</b> and <b>blacklist.txt</b> files following the instructions written in them.
